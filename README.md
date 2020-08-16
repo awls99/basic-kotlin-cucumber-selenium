@@ -25,6 +25,8 @@ The selection is not done in any fancy way, just an `if driver==Firefox` kind of
 
 ## Other OS'es
 This was made to be run on OSX, that's why it has the OSX drivers in the resources, to run in another OS there are two simple ways:
-edit `build.gradle` on lines 38 and 39 there are the paths to the drivers OR just overwrite the properties via command line with `-Dwebdriver.chrome.driver=src/path/to/driver`.
+
+* Edit `build.gradle` on lines 38 and 39 there are the paths to the drivers 
+* Just overwrite the properties via command line with `-Dwebdriver.chrome.driver=src/path/to/driver`.
  
 
