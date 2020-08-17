@@ -21,6 +21,9 @@ Just run the gradle task `test`.
 ## Browsers
 By default this will just open Chrome, but if you pass the `-Ddriver=Firefox` as an argument to the task it will use Firefox instead.
 
+### Versions
+Chrome was tested with version 84.0.4147 and Firefox was 79.0, the bundled drivers are compatible with those versions.
+
 The selection is not done in any fancy way, just an `if driver==Firefox` kind of check, doing more than this was kind of beyond the point of this little repo.
 
 ## Other OS'es
